@@ -19,8 +19,6 @@ defaults
     timeout connect 5000
     timeout client  50000
     timeout server  50000
-
-# Страница статистики (http://<IP_ВМ>:888/stats)
 listen stats
     bind :888
     mode http
